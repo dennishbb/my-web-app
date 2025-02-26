@@ -5,7 +5,7 @@ from sklearn.ensemble import IsolationForest
 from fuzzywuzzy import fuzz
 import os
 
-app = Flask(__name__, template_folder="/home/developer/projects/my-web-app/templates")
+app = Flask(__name__, template_folder="templates")
 UPLOAD_FOLDER = "uploads"
 PROCESSED_FOLDER = "processed"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
