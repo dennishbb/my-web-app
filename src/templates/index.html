@@ -7,12 +7,44 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body class="bg-light">
-    <div class="container mt-5 text-center">
-        <h2 class="mb-4">Upload Your Dataset for AI-Powered Data Quality Validation</h2>
-        <form action="/upload" method="post" enctype="multipart/form-data" class="p-4 bg-white shadow rounded">
-            <input type="file" name="file" class="form-control mb-3" required>
-            <button type="submit" class="btn btn-primary">Upload & Process</button>
-        </form>
+    <div class="container mt-5">
+        <div class="text-center mb-5">
+            <h1 class="mb-3">AI-Powered Data Quality & Validation</h1>
+            <p class="lead">Enhance your data accuracy, consistency, and reliability with cutting-edge AI solutions.</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Why AI-Powered Data Quality?</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">🚀 Improved Decision Making</li>
+                    <li class="list-group-item">🔍 Real-time Data Validation</li>
+                    <li class="list-group-item">🔄 Automated Data Cleaning</li>
+                    <li class="list-group-item">📊 Enhanced Business Intelligence</li>
+                    <li class="list-group-item">✅ Compliance & Risk Mitigation</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Industries Benefiting from AI Data Quality</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">🏦 Finance & Banking</li>
+                    <li class="list-group-item">🏥 Healthcare & Pharmaceuticals</li>
+                    <li class="list-group-item">🛍️ Retail & E-commerce</li>
+                    <li class="list-group-item">📡 Telecommunications</li>
+                    <li class="list-group-item">📈 Data Analytics & AI Development</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5">
+            <h2>Try Our AI Data Quality Test</h2>
+            <p>Upload your dataset and experience AI-powered data validation.</p>
+            <form action="/upload" method="post" enctype="multipart/form-data" class="p-4 bg-white shadow rounded w-50 mx-auto">
+                <input type="file" name="file" class="form-control mb-3" required>
+                <button type="submit" class="btn btn-primary">Upload & Process</button>
+            </form>
+            <a href="/sample-test" class="btn btn-outline-primary mt-3">Try Sample Test</a>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
